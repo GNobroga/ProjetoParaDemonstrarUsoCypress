@@ -1,0 +1,42 @@
+.post-list {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1rem;
+  background-color: #333333c3;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  min-height: 300px;
+
+  .scroll {
+    max-height: 600px;
+    overflow: auto;
+    padding: 1rem;
+  }
+
+  .columns {
+    display: flex;
+    gap: 1rem;
+
+    .column-id {
+      display: flex;
+      justify-content: center;
+    }
+
+    h1 {
+      flex: 1;
+    }
+  }
+
+  form input {
+    height: 40px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 1rem;
+    outline: none;
+    padding: 0 0.5rem;
+    border: 1px solid #333;
+  }
+}
